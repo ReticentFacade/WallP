@@ -1,5 +1,6 @@
 # WallP - Dynamic Wallpaper Scheduler
 WallP is a simple command-line tool that allows you to dynamically change your desktop wallpaper. 
+https://test.pypi.org/project/wallpCLI/0.1.0/
 
 ## Features
 
@@ -30,8 +31,17 @@ cd WallP
 
 4. Install the WallP CLI:
  ```
+ pip install -e .
+ ```
+ or 
+ ```
  pip install .
  ```
+
+5. In case: 
+```
+chmod +x venv/bin/wallp
+```
 
 ## Usage
 
@@ -51,6 +61,6 @@ This will select a random wallpaper from your specified directory.
 WallP automatically detects your wallpaper directory based on your OS. If you want to customize the directory, modify the get_wallpaper_dir() function in cli.py.
 
 ## Contributing
-Feel free to contribute to this project by opening issues or submitting pull requests. Follow the guidelines in CONTRIBUTING.md.
+Feel free to contribute to this project by opening issues or submitting pull requests.
 
 
