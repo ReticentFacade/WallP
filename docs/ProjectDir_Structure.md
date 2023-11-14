@@ -23,22 +23,22 @@
 ```
 
 1.  `wallp/__init__.py`:
-2.  This file can be left empty. It signifies that the wallp directory should be treated as a Python package.
+ This file can be left empty. It signifies that the wallp directory should be treated as a Python package.
 
-3. `wallp/core.py`:
+2. `wallp/core.py`:
 This file will contain the core functionality for changing and setting wallpapers.
 
-1. `wallp/cli.py`:
+3. `wallp/cli.py`:
 This file will handle the command-line interface (CLI).
 
-1. `wallpapers/`:
+4. `wallpapers/`:
 This directory contains sample wallpaper images.
 
-1. `tests/`:
+5. `tests/`:
 Unit tests for the application are in this directory.
 
-1. `requirements.txt`:
+6. `requirements.txt`:
 List the dependencies for your project. For now, it might be empty.
 
-1. `setup.py`:
+7. `setup.py`:
 Configuration for packaging your application.
