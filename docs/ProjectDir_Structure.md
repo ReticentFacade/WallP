@@ -33,6 +33,6 @@
 
 5.  `tests/`: Unit tests for the application are in this directory.
 
-6.  `requirements.txt`: List the dependencies for your project. For now, it might be empty.
+6.  `requirements.txt`: List the dependencies for WallP.
 
-7.  `setup.py`: Configuration for packaging your application.
+7.  `setup.py`: Configuration for packaging WallP.
