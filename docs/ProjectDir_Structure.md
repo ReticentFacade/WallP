@@ -1,6 +1,7 @@
-# Project Directory Structure: 
+# Project Directory Structure:
+
 ```
-➜  WallP ✗ tree 
+➜  WallP ✗ tree
 .
 ├── README.md
 ├── docs
@@ -22,23 +23,16 @@
 5 directories, 12 files
 ```
 
-1.  `wallp/__init__.py`:
- This file can be left empty. It signifies that the wallp directory should be treated as a Python package.
+1.  `wallp/__init__.py`: This file can be left empty. It signifies that the wallp directory should be treated as a Python package.
 
-2. `wallp/core.py`:
-This file will contain the core functionality for changing and setting wallpapers.
+2.  `wallp/core.py`: This file will contain the core functionality for changing and setting wallpapers.
 
-3. `wallp/cli.py`:
-This file will handle the command-line interface (CLI).
+3.  `wallp/cli.py`: This file will handle the command-line interface (CLI).
 
-4. `wallpapers/`:
-This directory contains sample wallpaper images.
+4.  `wallpapers/`: This directory contains sample wallpaper images.
 
-5. `tests/`:
-Unit tests for the application are in this directory.
+5.  `tests/`: Unit tests for the application are in this directory.
 
-6. `requirements.txt`:
-List the dependencies for your project. For now, it might be empty.
+6.  `requirements.txt`: List the dependencies for your project. For now, it might be empty.
 
-7. `setup.py`:
-Configuration for packaging your application.
+7.  `setup.py`: Configuration for packaging your application.
